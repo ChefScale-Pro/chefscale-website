@@ -13,6 +13,7 @@ export default function Home() {
           <a href="#why">Why ChefScale</a>
           <a href="#workflow">How it works</a>
           <a href="#features">Features</a>
+          <a href="#pricing">Pricing</a>
           <a className="nav-cta" href="#pilot">Founding pilot</a>
         </nav>
       </header>
@@ -112,6 +113,58 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="section pricing" id="pricing">
+        <div className="section-heading">
+          <div className="eyebrow">Launch pricing</div>
+          <h2>Choose self-service simplicity or a guided restaurant launch.</h2>
+          <p>Clear one-location offers, built for the way you want to implement ChefScale.</p>
+        </div>
+        <div className="pricing-grid">
+          <article className="price-card">
+            <div className="price-kicker">DIY Chef Edition</div>
+            <h3>Self-service launch license</h3>
+            <div className="price"><sup>$</sup>495 <span>one-time launch price</span></div>
+            <p>For chefs and operators ready to configure ChefScale independently.</p>
+            <ul>
+              <li><Check /> One restaurant location</li>
+              <li><Check /> Clean distribution workbook and sample data</li>
+              <li><Check /> Quick-start guide and prerecorded training</li>
+              <li><Check /> Defect, licensing, and download assistance</li>
+            </ul>
+            <a className="button secondary price-action" href="#pilot">Join the DIY launch list</a>
+            <small>Initial release limited to 10 numbered beta licenses. Migration, customization, live onboarding, and individual implementation support are not included.</small>
+          </article>
+
+          <article className="price-card featured-price">
+            <div className="price-badge">FOUNDING OPERATOR OFFER</div>
+            <div className="price-kicker">ChefScale Pro Enterprise</div>
+            <h3>Complete first-year launch</h3>
+            <div className="price"><sup>$</sup>2,495 <span>one location</span></div>
+            <p>For operators who want guided setup, onboarding, and launch support.</p>
+            <ul>
+              <li><Check /> One-location production license</li>
+              <li><Check /> Remote installation and system verification</li>
+              <li><Check /> Initial configuration and defined import assistance</li>
+              <li><Check /> Two guided onboarding sessions</li>
+              <li><Check /> 90 days of priority support and one year of updates</li>
+            </ul>
+            <a className="button primary price-action" href="#pilot">Request a founding-operator demo <Arrow /></a>
+            <small>Founding availability is intentionally limited. Scope, taxes, payment terms, and scheduling are confirmed in the written offer.</small>
+          </article>
+        </div>
+
+        <div className="pricing-guidance">
+          <div><span>Guided evaluation</span><strong>$295–$500</strong><small>Credited toward purchase</small></div>
+          <div><span>Annual license</span><strong>$1,800–$2,400</strong><small>Per year, one location</small></div>
+          <div><span>Perpetual license</span><strong>$2,995–$3,995</strong><small>One location</small></div>
+          <div><span>Setup &amp; onboarding</span><strong>$750–$1,500</strong><small>Defined implementation scope</small></div>
+          <div><span>Annual support</span><strong>$595–$995</strong><small>For perpetual licenses</small></div>
+          <div><span>Additional location</span><strong>$750–$1,250</strong><small>Per year</small></div>
+          <div><span>Consulting</span><strong>$75–$125</strong><small>Per hour</small></div>
+        </div>
+        <p className="pricing-note">DIY paid assistance is generally $95–$125 per hour. The DIY purchase price may be credited toward an Enterprise upgrade completed within 90 days.</p>
+      </section>
+
       <section className="section founder">
         <div className="founder-card">
           <div>
@@ -156,13 +209,14 @@ export default function Home() {
           <details><summary>Is it only for large restaurant groups?</summary><p>No. The founding pilot is designed around independent restaurants and chef-led operators that need stronger cost visibility without a large analyst team.</p></details>
           <details><summary>Does it replace a chef's judgment?</summary><p>No. It organizes the operating facts so chefs can apply judgment earlier and with better context.</p></details>
           <details><summary>Is v1.0 commercially available today?</summary><p>ChefScale has cleared its automated release gate and is completing final customer acceptance testing. Founding-pilot conversations are open now.</p></details>
+          <details><summary>Is DIY Chef a subscription?</summary><p>No. The $495 founding launch offer is a one-location, self-service license. Cloud subscription service is not part of the current v1.0 offer.</p></details>
         </div>
       </section>
 
       <footer>
         <div className="footer-brand"><img src="/chefscale-logo.png" alt="ChefScale Pro Enterprise" /><p>Recipe. Cost. Profit. Simplified.</p></div>
         <div><strong>Built By Chefs,<br/>Engineered For Profits.</strong></div>
-        <div className="footer-links"><a href="#why">Why ChefScale</a><a href="#features">Features</a><a href="#pilot">Founding pilot</a></div>
+        <div className="footer-links"><a href="#why">Why ChefScale</a><a href="#features">Features</a><a href="#pricing">Pricing</a><a href="#pilot">Founding pilot</a></div>
         <p className="legal">© 2026 ChefScale Pro LLC. ChefScale Pro™. All rights reserved.</p>
       </footer>
     </main>

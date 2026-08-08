@@ -23,6 +23,9 @@ test("server-renders the ChefScale Pro website", async () => {
   assert.match(html, /<title>ChefScale Pro \| Built By Chefs, Engineered For Profits<\/title>/i);
   assert.match(html, /Know what every plate costs/);
   assert.match(html, /Request a founding-pilot demo/);
+  assert.match(html, /DIY Chef Edition/);
+  assert.match(html, />2,495\s/);
+  assert.match(html, />495\s/);
   assert.match(html, /ChefScale Pro Enterprise/);
   assert.match(html, /chefscale-social-preview\.png/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/i);
@@ -37,6 +40,7 @@ test("keeps production branding and removes starter assets", async () => {
 
   assert.match(page, /ChefScale Pro connects purchasing/);
   assert.match(page, /Founding restaurant pilot/);
+  assert.match(page, /Launch pricing/);
   assert.match(layout, /ChefScale Pro \| Built By Chefs, Engineered For Profits/);
   assert.match(layout, /chefscale-social-preview\.png/);
   assert.doesNotMatch(`${page}\n${layout}\n${packageJson}`, /codex-preview|react-loading-skeleton/i);
