@@ -26,6 +26,9 @@ test("server-renders the ChefScale Pro website", async () => {
   assert.match(html, /DIY Chef Edition/);
   assert.match(html, />2,495\s/);
   assert.match(html, />495\s/);
+  assert.match(html, /Annual license/);
+  assert.match(html, /\$3,495/);
+  assert.match(html, /\$125 per hour/);
   assert.match(html, /ChefScale Pro Enterprise/);
   assert.match(html, /chefscale-social-preview\.png/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/i);

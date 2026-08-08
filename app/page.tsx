@@ -154,15 +154,15 @@ export default function Home() {
         </div>
 
         <div className="pricing-guidance">
-          <div><span>Guided evaluation</span><strong>$295–$500</strong><small>Credited toward purchase</small></div>
-          <div><span>Annual license</span><strong>$1,800–$2,400</strong><small>Per year, one location</small></div>
-          <div><span>Perpetual license</span><strong>$2,995–$3,995</strong><small>One location</small></div>
-          <div><span>Setup &amp; onboarding</span><strong>$750–$1,500</strong><small>Defined implementation scope</small></div>
-          <div><span>Annual support</span><strong>$595–$995</strong><small>For perpetual licenses</small></div>
-          <div><span>Additional location</span><strong>$750–$1,250</strong><small>Per year</small></div>
-          <div><span>Consulting</span><strong>$75–$125</strong><small>Per hour</small></div>
+          <div><span>Guided evaluation</span><strong>$500</strong><small>Credited toward purchase</small></div>
+          <div><span>Annual license</span><strong>$2,400</strong><small>Per year, one location</small></div>
+          <div><span>Perpetual license</span><strong>$3,495</strong><small>One location</small></div>
+          <div><span>Setup &amp; onboarding</span><strong>$1,250</strong><small>Defined implementation scope</small></div>
+          <div><span>Annual support</span><strong>$795</strong><small>For perpetual licenses</small></div>
+          <div><span>Additional location</span><strong>$995</strong><small>Per year</small></div>
+          <div><span>Consulting</span><strong>$125</strong><small>Per hour</small></div>
         </div>
-        <p className="pricing-note">DIY paid assistance is generally $95–$125 per hour. The DIY purchase price may be credited toward an Enterprise upgrade completed within 90 days.</p>
+        <p className="pricing-note">DIY paid assistance is $125 per hour. The DIY purchase price may be credited toward an Enterprise upgrade completed within 90 days.</p>
       </section>
 
       <section className="section founder">
